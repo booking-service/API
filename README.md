@@ -1,5 +1,5 @@
 # API
-Rails API Repor for booking service backend
+Rails API repo for booking service backend
 
 
 Google Note for ideas / things to do
