@@ -1,8 +1,3 @@
 Rails.application.routes.draw do
-  devise_for :merchant
-
-   namespace :v1, defaults: { format: :json } do
-    resource :login, only: [:create], controller: :sessions
-  end
-
+  mount_devise_token_auth_for 'Merchant', at: 'auth'
 end
